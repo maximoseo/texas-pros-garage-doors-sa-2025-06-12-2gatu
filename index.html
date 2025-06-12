@@ -3,24 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texas Pros Garage Doors SA - Professional Garage Door Services</title>
     <meta name="description" content="Professional garage door installation and repair services in San Antonio. Same day service available with our expert team.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <!-- Header -->
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">Texas Pros</a>
+                <a href="https://maximoseo.github.io/texas-pros-garage-doors-sa-2025-06-12-2gatu" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Texas Pros</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://texasprosgaragedoors.com/" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors duration-300">Get Quote</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+
+                <a href="https://texasprosgaragedoors.com/" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">Get Quote</a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Contact</a>
+                    <a href="https://texasprosgaragedoors.com/" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 text-center">Get Quote</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -29,11 +61,11 @@
     <section class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Texas Pros Garage Doors SA</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-8">We provide top-notch garage doors services in San Antonio</p>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">San Antonio's Premier Garage Door Experts</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8">Professional installation, repair, and maintenance services with same-day availability and expert craftsmanship</p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="https://texasprosgaragedoors.com/" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Get Started</a>
-                    <a href="#services" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">Our Services</a>
+                    <a href="https://texasprosgaragedoors.com/" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-xl">Schedule Service Now</a>
+                    <a href="#services" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300 transform hover:scale-105">Explore Services</a>
                 </div>
             </div>
         </div>
@@ -42,34 +74,34 @@
     <!-- Services Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Garage Door Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Garage Doors</h3>
-                    <p class="text-gray-600">Premium quality garage doors for your home or business</p>
+                    <h3 class="text-xl font-semibold mb-4">Premium Garage Doors</h3>
+                    <p class="text-gray-600">Custom-designed garage doors featuring top-grade materials, superior insulation, and modern safety features. Choose from our extensive selection of styles and finishes.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Garage Door Repair</h3>
-                    <p class="text-gray-600">Expert repair services for all types of garage doors</p>
+                    <h3 class="text-xl font-semibold mb-4">Expert Repair Services</h3>
+                    <p class="text-gray-600">24/7 emergency repairs, preventive maintenance, and comprehensive troubleshooting for all garage door brands. Fast response times and guaranteed workmanship.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Installation Services</h3>
-                    <p class="text-gray-600">Professional installation by our experienced team</p>
+                    <h3 class="text-xl font-semibold mb-4">Professional Installation</h3>
+                    <p class="text-gray-600">Certified technicians delivering precise installation with attention to detail. Includes complete setup, testing, and personalized operation tutorial.</p>
                 </div>
             </div>
         </div>
@@ -78,35 +110,107 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">The Texas Pros Advantage</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Great Price</h3>
-                    <p class="text-gray-600">Competitive pricing for premium services</p>
+                    <h3 class="text-xl font-semibold mb-4">Competitive Pricing</h3>
+                    <p class="text-gray-600">Transparent pricing with no hidden fees. Get premium service without premium costs. Flexible payment options available.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Professional Team</h3>
-                    <p class="text-gray-600">Experienced and certified technicians</p>
+                    <h3 class="text-xl font-semibold mb-4">Expert Team</h3>
+                    <p class="text-gray-600">Factory-trained technicians with over 20 years combined experience. Licensed, bonded, and insured for your peace of mind.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition-all duration-300">
                     <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Same Day Service</h3>
-                    <p class="text-gray-600">Quick response for urgent repairs</p>
+                    <h3 class="text-xl font-semibold mb-4">Rapid Response</h3>
+                    <p class="text-gray-600">Same-day service for emergency repairs. Available 24/7 with average response time under 2 hours in San Antonio area.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Same-day service when my garage door broke. The team was professional and had everything fixed within an hour. Couldn't be happier!"</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Excellent installation service. They helped me choose the perfect door for my budget and style. The team was clean, efficient, and professional throughout the entire process."</p>
+                    <p class="font-semibold">Michael Rodriguez</p>
+                    <p class="text-sm text-gray-500">Business Owner</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Their preventive maintenance program has saved me thousands in potential repairs. The annual inspections catch issues before they become problems."</p>
+                    <p class="font-semibold">David Thompson</p>
+                    <p class="text-sm text-gray-500">Property Manager</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Best garage door service in San Antonio! Fair pricing, excellent communication, and quality workmanship. Highly recommend their team."</p>
+                    <p class="font-semibold">Lisa Martinez</p>
+                    <p class="text-sm text-gray-500">Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Texas Pros Garage Doors</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">
+                    Founded in 2010, Texas Pros Garage Doors began with a simple mission: to provide San Antonio homeowners with reliable, professional garage door services. What started as a small family business has grown into one of the most trusted names in garage door installation and repair across the region, serving thousands of satisfied customers throughout our journey.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Our core values of integrity, excellence, and customer satisfaction drive everything we do. We believe in delivering honest service, using quality materials, and ensuring every customer receives the attention they deserve. Our team of certified technicians stays current with the latest industry innovations, allowing us to offer cutting-edge solutions while maintaining our commitment to traditional service values.
+                </p>
             </div>
         </div>
     </section>
@@ -116,29 +220,40 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-50 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">How long does installation take?</h3>
-                    <p class="text-gray-600">Most installations can be completed within a few hours, depending on the type of door and complexity of the installation.</p>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What types of garage doors do you offer?</h3>
+                    <p class="text-gray-600">We offer a comprehensive selection including steel, wood, aluminum, and composite doors in various styles - traditional, contemporary, and custom designs. All our doors are available with different insulation options and finish choices.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">Do you offer warranties?</h3>
-                    <p class="text-gray-600">Yes, we provide warranties on both parts and labor for all our services.</p>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What are your service hours and response times?</h3>
+                    <p class="text-gray-600">We provide 24/7 emergency service with typical response times under 2 hours. Regular service appointments are available Monday through Saturday, 7 AM to 7 PM, with flexible scheduling to meet your needs.</p>
                 </div>
-                <div class="bg-gray-50 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">What areas do you serve?</h3>
-                    <p class="text-gray-600">We serve the entire San Antonio metropolitan area and surrounding communities.</p>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What warranty coverage do you provide?</h3>
+                    <p class="text-gray-600">All new installations come with a comprehensive warranty covering parts and labor. We offer 1-year warranty on repairs and lifetime warranties on many installed components. Extended warranty options are also available.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How much does a typical garage door installation cost?</h3>
+                    <p class="text-gray-600">Installation costs vary based on door style, size, and features. Basic installations start at $800, while custom doors can range from $1,500-$5,000. We provide detailed quotes after an initial consultation to ensure transparency.</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Do you offer maintenance programs?</h3>
+                    <p class="text-gray-600">Yes, we offer annual and semi-annual maintenance plans that include comprehensive inspections, adjustments, and lubrication. These programs help prevent costly repairs and extend your door's lifespan.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1558015340-2a3f14b3d8f0?auto=format&fit=crop&w=1920" alt="Garage door background" class="object-cover w-full h-full opacity-20">
+        </div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready to get started?</h2>
-                <p class="text-xl text-blue-100 mb-8">Contact us today for a free consultation</p>
-                <a href="https://texasprosgaragedoors.com/" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300">Get Your Quote</a>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Ready for Expert Garage Door Service?</h2>
+                <p class="text-xl text-blue-100 mb-8">Schedule your consultation today and experience the Texas Pros difference</p>
+                <a href="https://texasprosgaragedoors.com/" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Get Your Free Quote</a>
             </div>
         </div>
     </section>
@@ -149,25 +264,29 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Texas Pros Garage Doors</h3>
-                    <p class="text-gray-400">Professional garage door services in San Antonio</p>
+                    <p class="text-gray-400">Your trusted partner for professional garage door services in San Antonio</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <p class="text-gray-400 mb-2">info@texasprosgaragedoors.com</p>
+                    <p class="text-gray-400">24/7 Emergency Service Available</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://maximoseo.github.io/texas-pros-garage-doors-sa-2025-06-12-2gatu/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://maximoseo.github.io/texas-pros-garage-doors-sa-2025-06-12-2gatu/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://maximoseo.github.io/texas-pros-garage-doors-sa-2025-06-12-2gatu/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -176,5 +295,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
